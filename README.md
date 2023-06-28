@@ -71,6 +71,8 @@ To run the project, execute the following command:
 ### Project_presentation
 [Project Presentation] You can see the live presentation of the key concepts taken into account while creating this project here: 
 
+https://www.loom.com/share/ad044fc228c54a29aff671bbd2093e26?sid=42c75ce9-84a8-4c0f-bf46-f6fae7de7167
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add more Javascript to make it more responsive.]**
