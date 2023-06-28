@@ -4,14 +4,14 @@
 <div align="center">
   
 
-  <h3><b>Portifolio Mobile Website README.md</b></h3>
+  <h3><b> Capstone project Website README.md</b></h3>
 
 </div>
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Portifolio Mobile Website \] ](#-portifolio-mobile-website--)
+- [📖 \[Capstone project Website \] ](#-Capstone-project-website--)
   - [🛠 Built With **HTML, CSS and JavaScript**](#-built-with-html-and-css)
     - [Tech Stack **HTML, CSS and JavaScript**](#tech-stack-html-and-css)
     - [Key Features ](#key-features-)
@@ -30,26 +30,21 @@
   - [📝 License ](#-license-)
 
 
-# 📖 [Portifolio Mobile Website ] <a name="about-project"></a>
-**Portifolio Mobile Website** is a project under microverse Module 1 block ! aimed at testing my knowledge about the concepts learnt and to help me build a website to display my work so that I stand out in the Job market.
+# 📖 [Capstone Project Website ] <a name="about-project"></a>
+**Capstone Project Website** is a project under Microverse Module 1 block 5, aimed to test my knowledge about the concepts learned in the module and help me build a website to display on my portfolio to stand out in the Job market.
 This project is meant to run on all devices because it has both mobile and desktop versions.
-
-![image](https://github.com/As1imwe-Mark/Portifolio_toolbar_and_headline_section/assets/100065970/80b2bb40-54c8-4ebb-9ae9-7c30991bc7d9)
-![image](https://github.com/As1imwe-Mark/Portifolio_Website/assets/100065970/fd0cfa20-fbb7-4cb9-bb05-49638f28bd40)
-![image](https://github.com/As1imwe-Mark/Portifolio_Website/assets/100065970/b5f2481d-99ca-42e1-bed6-d5ac9a892b9b)
-
 
 
 ## 🛠 Built With **HTML, CSS and JavaScript**
 
-### Tech Stack **HTML, CSS and JavaScript**
+### Tech Stack **HTML, CSS, and JavaScript**
 ### Key Features <a name="key-features"></a>
 - **Contains information about me and the services I offer in the software development world**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### LiveDemo
-[Live Demo] You can see the live Demo of the website here https://as1imwe-mark.github.io/Portifolio_Website/
+[Live Demo] You can see the live Demo of the website here https://as1imwe-mark.github.io/Web-Camp-Capstone-project/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -57,29 +52,28 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: A web browser.
+In order to run this project you need A web browser.
 ### Setup
 
 Clone this repository to your desired folder:
 cd Module_1 
--git clone git@github.com/As1imwe-Mark/Portifolio_Website.git
+-git clone git@github.com/As1imwe-Mark/Web-Camp-Capstone-project.git
 
 ### Install
 
-_No installation is required, double click the index.html file to open it.
+_No installation is required, double-click the index.html file to open it.
 
 ### Usage
 
 To run the project, execute the following command:
--Double click the index.html file.
+-Double-click the index.html file.
 
 ### Project_presentation
-[Project Presentation] You can see the live presentation of the key concepts taken into account while creating this project here: https://www.loom.com/share/9e04644145184fa7940987726b7b64de?sid=2cc65aba-df82-4de7-a138-13636487cb45
+[Project Presentation] You can see the live presentation of the key concepts taken into account while creating this project here: 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add some Javascript to make it more responsive.]**
-- [ ]  **Add list of projects**
+- [ ] **[Add more Javascript to make it more responsive.]**
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -91,14 +85,7 @@ To run the project, execute the following command:
 - 
 ## Contributions
 
-I would like to thank the following for their contributions to the success of this project
-
-👤 **Mahammad Mostafa**
-- GitHub: @[mahammad-mostafa](https://github.com/mahammad-mostafa)
-
- 👤 **Yuliana Velez Rodriguez**
-- GitHub: [@Yuliana09](https://github.com/Yulianav09)
-- LinkedIn: [Yuliana Velez Rodriguez](https://www.linkedin.com/in/yuliana-velez-rodriguez/)
+It was a solo project
 
 ## ⭐️ Show your support <a name="support"></a>
  
@@ -107,7 +94,7 @@ If you like this project like it and give me a follow.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-It was a solo effort with consultation from resources.
+I would like to acknowledge Mrs Cindy Shin in Behance for the design and I would also like to acknowledge Microverse.org for the opportunity by giving me this project as a capstone project to test my knowledge of all the things I learned in the module. 
 
 
 
