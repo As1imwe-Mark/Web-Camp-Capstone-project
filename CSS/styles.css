@@ -220,8 +220,9 @@ span {
   justify-content: center;
   color: white;
   background: #3b3e45;
-  padding: 0.2rem;
-  margin: 0.6rem;
+  padding: 0.3rem;
+  margin: 0.5rem;
+  gap: 10px;
 }
 
 .lecture_icon {
@@ -428,8 +429,8 @@ span {
   font-size: 0.5625rem;
   line-height: 1.5;
   align-items: center;
-  letter-spacing: -0.02em;
-  color: var(--secondary);
+  letter-spacing: 0.1em;
+  color:#F78C89;
   width: 14.125rem;
   margin: 0;
 }
@@ -521,7 +522,7 @@ small {
 }
 
 .about_logo {
-  width: 90%;
+  width: 20rem;
   height: 195.28px;
 }
 
@@ -877,8 +878,6 @@ a:active {
 
   .about_us_text {
     max-width: 64%;
-
-    /* padding: 35px 65px 35px 65px; */
     gap: 10px;
     background: rgba(255, 255, 255, 1);
     margin: 0 auto;
@@ -906,7 +905,7 @@ a:active {
 
   .about_logo {
     margin-top: 20px;
-    width: 542px;
+    width: 20rem;
     height: 195.28px;
   }
 
