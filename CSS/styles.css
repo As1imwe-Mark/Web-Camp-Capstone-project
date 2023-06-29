@@ -450,7 +450,7 @@ span {
 }
 
 .more {
-  width: 22rem;
+  width: 20rem;
   height: 2.4rem;
   border: 1px solid #dcdcdc;
   filter: drop-shadow(0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.25));
