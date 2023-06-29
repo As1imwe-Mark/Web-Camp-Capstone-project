@@ -27,7 +27,7 @@ body {
 
 .navigation {
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   display: flex;
   gap: 0.625rem;
   justify-content: space-between;
@@ -43,11 +43,15 @@ body {
   height: 1.7rem;
   background-position: 100% 100%;
   background-repeat: no-repeat;
-  margin-left: 1rem;
+  margin-left: 1.44rem;
+}
+
+.socials-nav {
+  display: none;
 }
 
 .site_logo {
-  align-self: center;
+  display: none;
 }
 
 .site_logo a {
@@ -81,6 +85,7 @@ body {
   flex-direction: column;
   font-weight: 900;
   font-size: larger;
+  align-items: left;
 }
 
 .mobile a {
@@ -90,7 +95,6 @@ body {
 }
 
 .close {
-  float: right;
   margin-right: 10%;
   font-size: 25px;
   color: var(--bg);
@@ -98,14 +102,16 @@ body {
   border-radius: 4px;
   background-color: transparent;
   cursor: pointer;
+  align-self: right;
 }
 
 .campaign {
-  width: 110px;
-  padding: 6px 3px;
+  width: 140px;
+  padding: 7px 12px;
   border: 5px solid var(--secondary);
   color: var(--secondary);
   font-weight: bolder;
+  text-align: center;
 }
 
 .menu-items {
@@ -117,13 +123,14 @@ body {
 .hero_container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   height: 30.4rem;
-  background: url(../Backgrounds/mobile_intro_bg.png);
+  background: url(../Backgrounds/mobile_intro_bg.png), lightgray;
   background-size: cover;
   background-position: 100% 100%;
   background-repeat: no-repeat;
+  padding: 1rem;
 }
 
 .hero_heading {
@@ -132,7 +139,7 @@ body {
 
 .hero_heading h1 {
   color: transparent;
-  font-size: 2rem;
+  font-size: 2.6rem;
   font-weight: 900;
   background: url(../Backgrounds/text-clip.jpg);
   background-clip: text;
@@ -157,7 +164,7 @@ span {
   padding: 0 0.9rem;
   background: #f8f8f8;
   border: 4px solid #fff;
-  margin-top: 1.25rem;
+  margin-top: 2.3rem;
 }
 
 .date {
@@ -333,9 +340,9 @@ span {
 }
 
 #program p {
-  font-weight: 700;
+  font-weight: 300;
   font-size: 0.67rem;
-  line-height: 1.38rem;
+  line-height: 1.5;
   width: 12rem;
   margin-left: 6px;
 }
@@ -344,12 +351,11 @@ span {
 
 .frame {
   background-color: var(--secondary);
-  max-width: 80%;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 10px;
   justify-content: center;
-  padding: 0.1rem;
+  padding: 1.25rem 3.125rem;
 }
 
 .frame h4 {
@@ -379,24 +385,21 @@ span {
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin-bottom: 30px;
+
+  /* margin-bottom: 30px; */
+  gap: 1.8rem;
 }
 
 .speaker {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.7rem;
+  gap: 1rem;
   margin-top: 0;
 }
 
 .desk_ {
   display: none;
-}
-
-.show_more {
-  display: block;
-  transition-duration: 1s;
 }
 
 .speaker_1-image img {
@@ -414,24 +417,32 @@ span {
 .info h4 {
   font-weight: 700;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 1.5;
   letter-spacing: -0.02em;
   color: black;
+  margin: 0;
 }
 
 .info .sub-text {
   font-weight: 700;
-  font-size: 10px;
-  line-height: 15px;
+  font-size: 0.5625rem;
+  line-height: 1.5;
   align-items: center;
   letter-spacing: -0.02em;
   color: var(--secondary);
   width: 14.125rem;
+  margin: 0;
+}
+
+.speaker .underline {
+  border: 1px solid #3b3e45;
+  margin-top: 3px;
+  width: 1rem;
 }
 
 .info .caption {
   font-weight: 700;
-  font-size: 9px;
+  font-size: 1rem;
   line-height: 14px;
   letter-spacing: -0.06em;
   color: #000;
@@ -439,12 +450,13 @@ span {
 }
 
 .more {
-  width: 93.6%;
+  width: 22rem;
   height: 2.4rem;
   border: 1px solid #dcdcdc;
   filter: drop-shadow(0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.25));
   border-radius: 0.25rem;
   -webkit-filter: drop-shadow(0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.25));
+  margin-top: 3rem;
 }
 
 .arrow {
@@ -470,14 +482,14 @@ span {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 0.313rem;
+  padding-top: 1rem;
   gap: 0.625rem;
 }
 
 .about_hero h1 {
   margin: 0;
   color: transparent;
-  font-size: 2rem;
+  font-size: 2.6rem;
   font-weight: 900;
   background: url(../Backgrounds/text-clip.jpg);
   background-clip: text;
@@ -510,6 +522,7 @@ small {
 
 .about_logo {
   width: 90%;
+  height: 195.28px;
 }
 
 .about_logo img {
@@ -527,8 +540,6 @@ small {
   padding: 0;
   background: #fff;
   border-bottom: 1px solid #fafafa;
-
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   margin-bottom: 20px;
 }
 
@@ -559,6 +570,7 @@ small {
 }
 
 .event_1 {
+  position: relative;
   width: 89%;
 }
 
@@ -566,6 +578,22 @@ small {
   object-fit: cover;
   width: 100%;
   height: 11.4rem;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.404);
+  z-index: 100;
+  color: white;
+}
+
+.text-overlay h2 {
+  font-size: 2.5rem;
 }
 
 .partner {
@@ -606,11 +634,38 @@ a:active {
 
   /* Navigation section */
 
+  .socials-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 1.8rem;
+    background: #3e3e3e;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.2rem;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-right: 7rem;
+  }
+
+  .socials a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+
   header {
     width: 100%;
   }
 
   .site_logo {
+    display: block;
     margin-left: 100px;
   }
 
@@ -631,14 +686,18 @@ a:active {
   }
 
   .hero_heading h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   .menu-items {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     text-decoration: none;
     font-weight: 900;
+  }
+
+  .menu .about {
+    color: var(--secondary);
   }
 
   .menu button {
@@ -652,6 +711,9 @@ a:active {
   .menu-items a {
     text-decoration: none;
     align-self: center;
+    margin-left: -11px;
+    color: var(--primary);
+    font-size: 0.875rem;
   }
 
   .mobile {
@@ -659,47 +721,45 @@ a:active {
   }
 
   .campaign {
-    border: 5px solid red;
+    border: 5px solid var(--secondary);
     font-weight: bolder;
     margin-right: 100px;
   }
 
   .campaign a {
     color: var(--secondary);
+    font-size: 0.875rem;
   }
 
   /* Hero section */
 
   .hero_container {
     width: 100%;
-    margin: 0 auto;
+    padding: 0;
     padding-top: 2rem;
-    height: 90vh;
-  }
-
-  #hero {
-    margin: 0 auto;
+    height: 100vh;
   }
 
   .hero_heading {
     width: 46.6rem;
-    margin: 0 auto;
+    margin: 6rem 7rem 0 7rem;
   }
 
   .hero_introduction {
     max-width: 47.3rem;
+    margin: 8rem 5rem 0 7rem;
   }
 
   .hero_introduction p {
-    font-size: 25px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 36px;
     letter-spacing: -0.01em;
-    text-align: left;
   }
 
   .venue-date {
     width: 44.74rem;
+    margin: 2rem 7rem;
   }
 
   .date {
@@ -707,7 +767,7 @@ a:active {
     font-size: 42px;
     font-weight: 900;
     letter-spacing: -0.08em;
-    text-align: left;
+    margin: 0;
   }
 
   .venue {
@@ -715,7 +775,7 @@ a:active {
     font-size: 28px;
     font-weight: 700;
     letter-spacing: -0.02em;
-    text-align: left;
+    margin-bottom: 8rem;
   }
 
   /* Program section */
@@ -743,6 +803,7 @@ a:active {
     flex-direction: column;
     margin-bottom: 90px;
     margin-top: 30px;
+    text-align: center;
   }
 
   .frame {
@@ -845,6 +906,8 @@ a:active {
 
   .about_logo {
     margin-top: 20px;
+    width: 542px;
+    height: 195.28px;
   }
 
   .creative_corner p {
@@ -878,5 +941,9 @@ a:active {
 
   footer {
     text-align: center;
+  }
+
+  .home {
+    display: none;
   }
 }
