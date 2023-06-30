@@ -213,7 +213,7 @@ span {
 }
 
 .program_card {
-  width: 94.7%;
+  max-width: 94.7%;
   height: 5.13rem;
   display: flex;
   align-items: center;
